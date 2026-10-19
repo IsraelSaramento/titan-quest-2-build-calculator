@@ -1,0 +1,7 @@
+# Dados pessoais (saves de personagem)
+src/save_*.js
+src/*_build.json
+*-phantomn.html
+# Python
+__pycache__/
+*.pyc

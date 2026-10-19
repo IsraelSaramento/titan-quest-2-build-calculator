@@ -1,0 +1,11 @@
+const fs = require('fs'), vm = require('vm');
+const ctx = { console, localStorage: { getItem: () => null, setItem: () => {} } }; ctx.window = ctx; vm.createContext(ctx);
+require('./load_atlas')(ctx, 'titan-quest-2-build-calculator-phantomn.html');
+['src/socketables.js', 'src/save_phantomn.js', 'src/calc.js'].forEach(f => vm.runInContext(fs.readFileSync(f, 'utf8'), ctx));
+vm.runInContext(`const M={};TQ2.masteries.forEach(m=>M[m.key]=m);const sv=TQ2_SAVES[0];
+const B={slots:sv.slots,sk:sv.sk};const st=(mk,s)=>B.sk[mk+"|"+s.n]||{l:0,f:[],m:{}};
+Object.assign(TQ2CALC.T,{level:34,rof:false,valor:false,banner:false,rage:0,rampSec:0,situ:{combatRush:false,enemies:0}});
+for(const scope of [['affix']]){ TQ2CALC.DUAL_SCOPE=scope;
+  TQ2CALC._gear=null; const R2=TQ2CALC.compute(B,M,st);
+  TQ2CALC._gear=sv.gear.filter(g=>g.slot!==5); const R1=TQ2CALC.compute(B,M,st); TQ2CALC._gear=sv.gear.filter(g=>g.slot!==4).map(g=>g.slot===5?Object.assign({},g,{slot:4}):g); const R3=TQ2CALC.compute(B,M,st); console.log('so a maca nivel 34 na mao principal:',R3.perSec.toFixed(0),'vel',R3.timing.speedF.toFixed(2));
+  console.log(JSON.stringify(scope).padEnd(22),'2 armas',R2.perSec.toFixed(0),'(jogo 1558)','| 1 arma',R1.perSec.toFixed(0),'(jogo 986)','vel',R1.timing.speedF.toFixed(2),'fat',R1.factors.resolve.toFixed(3));}`, ctx);

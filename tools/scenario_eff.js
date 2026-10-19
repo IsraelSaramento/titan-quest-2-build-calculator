@@ -1,0 +1,11 @@
+const fs = require('fs'), vm = require('vm');
+const ctx = { console, localStorage: { getItem: () => null, setItem: () => {} } }; ctx.window = ctx; vm.createContext(ctx);
+require('./load_atlas')(ctx, 'titan-quest-2-build-calculator-phantomn.html');
+['src/socketables.js', 'src/save_phantomn.js', 'src/calc.js'].forEach(f => vm.runInContext(fs.readFileSync(f, 'utf8'), ctx));
+ctx.OPT = JSON.parse(process.argv[2] || '{}');
+vm.runInContext(`const M={};TQ2.masteries.forEach(m=>M[m.key]=m);const sv=TQ2_SAVES[0];
+const B={slots:sv.slots,sk:sv.sk};const st=(mk,s)=>B.sk[mk+"|"+s.n]||{l:0,f:[],m:{}};
+Object.assign(TQ2CALC.T,{level:34},OPT);
+const R=TQ2CALC.compute(B,M,st);
+R.effects.filter(x=>x.a.ok||x.e.kind==='speed').forEach(x=>console.log((x.a.ok?'OK  ':'    ')+String(x.e.src).padEnd(40),String(TQ2CALC.shortEff(x.e)).padEnd(30),x.e.kind==='speed'?'speed '+x.e.val:''));
+console.log('chans',JSON.stringify(R.chans),'mores',JSON.stringify(R.mores.map(m=>[m.src,m.val])));`, ctx);

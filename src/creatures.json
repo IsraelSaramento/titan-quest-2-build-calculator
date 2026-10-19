@@ -1,0 +1,4819 @@
+[
+ {
+  "id": "da_cr_au_fire",
+  "key": "au_fire",
+  "name": "Flamethrower",
+  "tier": "T2",
+  "family": "Automaton.Burner",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_au_ice",
+  "key": "au_ice",
+  "name": "Freezer",
+  "tier": "T2",
+  "family": "Automaton.Freezer",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_au_lancer",
+  "key": "au_lancer",
+  "name": "Spiker",
+  "tier": "T1",
+  "family": "Automaton.Lancer",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_au_lightning",
+  "key": "au_lightning",
+  "name": "Shocker",
+  "tier": "T2",
+  "family": "Automaton.Shocker",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_au_protector",
+  "key": "au_protector",
+  "name": "Protector",
+  "tier": "T3",
+  "family": "Automaton.Protector",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 5.0,
+   "strike": 5.0
+  }
+ },
+ {
+  "id": "da_cr_au_sentinel",
+  "key": "au_sentinel",
+  "name": "Sentinel",
+  "tier": "T1",
+  "family": "Automaton.Sentinel",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_au_sentinel_turret",
+  "key": "au_sentinel",
+  "name": "Sentinel",
+  "tier": "T1",
+  "family": "Automaton.Sentinel",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_au_soldier",
+  "key": "au_soldier",
+  "name": "Soldier",
+  "tier": "T1",
+  "family": "Automaton.Soldier",
+  "folder": "Automatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_bo_axe_thrower",
+  "key": "bo_axe_thrower",
+  "name": "Axe Thrower",
+  "tier": "T2",
+  "family": "Boarman.Axe_Thrower",
+  "folder": "boarmen",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_brawler",
+  "key": "bo_brawler",
+  "name": "Brawler",
+  "tier": "T3",
+  "family": "Boarman.Brawler",
+  "folder": "boarmen",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_feral",
+  "key": "bo_feral",
+  "name": "Feral Boarman",
+  "tier": "T1",
+  "family": "Boarman.Feral",
+  "folder": "boarmen",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_firemancer",
+  "key": "bo_firemancer",
+  "name": "Firemancer",
+  "tier": "T2",
+  "family": "Boarman.Firemancer",
+  "folder": "boarmen",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_fire_juggler",
+  "key": "bo_fire_juggler",
+  "name": "Fire Juggler",
+  "tier": "T2",
+  "family": "Boarman.Juggler",
+  "folder": "boarmen",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_geomancer",
+  "key": "bo_geomancer",
+  "name": "Geomancer",
+  "tier": "T3",
+  "family": "Boarman.Geomancer",
+  "folder": "boarmen",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_grunt",
+  "key": "bo_grunt",
+  "name": "Grunt",
+  "tier": "T1",
+  "family": "Boarman.Grunt",
+  "folder": "boarmen",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_leader",
+  "key": "bo_leader",
+  "name": "Warlord",
+  "tier": "T4",
+  "family": "Boarman.Warlord",
+  "folder": "boarmen",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_bo_shieldbearer",
+  "key": "bo_shieldbearer",
+  "name": "Shieldbearer",
+  "tier": "T2",
+  "family": "Boarman.Shieldbearer",
+  "folder": "boarmen",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_arachne_t5",
+  "key": "boss_arachne",
+  "name": "Arachne",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_centaur_champion_t5",
+  "key": "miniboss_centaur_champion_title",
+  "name": "Centaur Champion",
+  "tier": "T5",
+  "family": "Centaur.Champion",
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_feral_hippocampus_t5",
+  "key": "miniboss_hippocampos_feral_title",
+  "name": "Escaped Prisoner",
+  "tier": "T5",
+  "family": "Mythical.Hippocampus.Boss_AP",
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.25,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_griffin_t5",
+  "key": "miniboss_griffin",
+  "name": "Scourge of Proti Island",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_griffin_t5_replay",
+  "key": "miniboss_griffin",
+  "name": "Scourge of Proti Island",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_gryphon_ajax_t5",
+  "key": "miniboss_gryphon_ajax_title",
+  "name": "Lord of the Skies",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_hippocampus_t5",
+  "key": "miniboss_hippocampus",
+  "name": "Devourer of the Lost",
+  "tier": "T5",
+  "family": "Mythical.Hippocampus.Boss_FF",
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.25,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_ichthian_general_t5",
+  "key": "miniboss_ichthian_general",
+  "name": "King-of-Tides",
+  "tier": "T5",
+  "family": "Ichthian.Sharkhead.General",
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.35,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 5.0
+  }
+ },
+ {
+  "id": "da_cr_boss_ixion_chained",
+  "key": "boss_ixion_title",
+  "name": "The Punished King",
+  "tier": "T6",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.25,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.3
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_ixion_t6",
+  "key": "boss_ixion_title",
+  "name": "The Punished King",
+  "tier": "T6",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.35,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.3
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 4.0
+  }
+ },
+ {
+  "id": "da_cr_boss_pan_dialogue_final",
+  "key": "boss_pan",
+  "name": "God of the Wild",
+  "tier": "T6",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.25,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_pan_t6",
+  "key": "boss_pan",
+  "name": "God of the Wild",
+  "tier": "T6",
+  "family": null,
+  "folder": "Bosses",
+  "res": {
+   "fire": 0.25,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.3
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_first_boarman_t5",
+  "key": "boss_first_boarman",
+  "name": "The First Boarman",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/FirstBoarman",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ls_elite_hoplite",
+  "key": "ls_hoplite_elite",
+  "name": "Elite Hoplite",
+  "tier": "T5",
+  "family": "LivingStatues.Hoplite",
+  "folder": "Bosses/FirstBoarman",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 4.0,
+   "pierce": 4.0
+  }
+ },
+ {
+  "id": "da_cr_ls_elite_juggernaught",
+  "key": "ls_juggernaut_elite",
+  "name": "Elite Juggernaut",
+  "tier": "T5",
+  "family": "LivingStatues.Juggernaught",
+  "folder": "Bosses/FirstBoarman",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 3.0,
+   "pierce": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ls_elite_priest",
+  "key": "ls_priest_elite",
+  "name": "Elite Priest",
+  "tier": "T5",
+  "family": "LivingStatues.Priest",
+  "folder": "Bosses/FirstBoarman",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 3.0,
+   "pierce": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ls_elite_ranged",
+  "key": "ls_ranged_elite",
+  "name": "Elite Javelin Thrower",
+  "tier": "T5",
+  "family": "LivingStatues.Ranged",
+  "folder": "Bosses/FirstBoarman",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_first_boarman_repeat_t5",
+  "key": "boss_first_boarman",
+  "name": "The First Boarman",
+  "tier": "T5",
+  "family": "Resummon",
+  "folder": "Bosses/RepeatBosses",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_boss_repeat_arachne_t5",
+  "key": "boss_arachne",
+  "name": "Arachne",
+  "tier": "T5",
+  "family": "Resummon",
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_repeat_centaur_champion_t5",
+  "key": "miniboss_centaur_champion_title",
+  "name": "Centaur Champion",
+  "tier": "T5",
+  "family": "Centaur.Champion",
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_boss_repeat_hippocampus_t5",
+  "key": "miniboss_hippocampus",
+  "name": "Devourer of the Lost",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.25,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_repeat_ichthian_general_t5",
+  "key": "miniboss_ichthian_general",
+  "name": "King-of-Tides",
+  "tier": "T5",
+  "family": "Ichthian.Sharkhead.General",
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.35,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 5.0
+  }
+ },
+ {
+  "id": "da_cr_boss_repeat_miniboss_aristomenes_sword",
+  "key": "miniboss_aristomenes",
+  "name": "King of Messenia",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.25,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 4.5,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_repeat_moirai_cave_undead_champion_t5",
+  "key": "miniboss_undead_champion_moirai_cave_title",
+  "name": "Denier of Destiny",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_boss_repeat_pan_t6",
+  "key": "boss_pan",
+  "name": "God of the Wild",
+  "tier": "T6",
+  "family": null,
+  "folder": "Bosses/RepeatBosses",
+  "res": {
+   "fire": 0.25,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.3
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_moirai_cave_ghost_cutthroat_02_t5",
+  "key": "miniboss_ghost_cutthroat_moirai_cave_title",
+  "name": "Cursed Temple Looter",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/VariantBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_moirai_cave_undead_champion_t5",
+  "key": "miniboss_undead_champion_moirai_cave_title",
+  "name": "Denier of Destiny",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/VariantBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_titan_ichor_spirit_caller_t5",
+  "key": "miniboss_flint_kicker_title",
+  "name": "Exiled Caller",
+  "tier": "T5",
+  "family": "Centaur.FlintKicker",
+  "folder": "Bosses/VariantBosses",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.25,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 2.5,
+   "strike": 2.5
+  }
+ },
+ {
+  "id": "da_cr_moirai_cave_ghost_soldier_01_t5",
+  "key": "miniboss_ghost_soldier_moirai_cave_title",
+  "name": "Ancient Minoan King",
+  "tier": "T5",
+  "family": null,
+  "folder": "Bosses/VariantBosses/MoiraCaveGhostSoldier",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ce_alpha_t3",
+  "key": "ce_alpha",
+  "name": "Alpha",
+  "tier": "T3",
+  "family": "Centaur.Alpha",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_archer",
+  "key": "ce_archer",
+  "name": "Archer",
+  "tier": "T1",
+  "family": "Centaur.Archer",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ce_caller_flame",
+  "key": "ce_caller_flame",
+  "name": "Flame Caller",
+  "tier": "T2",
+  "family": "Centaur.Flame_Caller",
+  "folder": "Centaurs",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_caller_plague",
+  "key": "ce_caller_plague",
+  "name": "Plague Caller",
+  "tier": "T2",
+  "family": "Centaur.Plague_Caller",
+  "folder": "Centaurs",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_caller_spirit",
+  "key": "ce_spirit_caller",
+  "name": "Spirit Caller",
+  "tier": "T3",
+  "family": "Centaur.Spirit_Caller",
+  "folder": "Centaurs",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_caller_storm",
+  "key": "ce_caller_storm",
+  "name": "Storm Caller",
+  "tier": "T2",
+  "family": "Centaur.Storm_Caller",
+  "folder": "Centaurs",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_captain",
+  "key": "ce_captain",
+  "name": "Captain",
+  "tier": "T4",
+  "family": "Centaur.Captain",
+  "folder": "Centaurs",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": -0.1,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 4.0
+  }
+ },
+ {
+  "id": "da_cr_ce_captain_battle_standard",
+  "key": "centaur_centaurs",
+  "name": "Centaur",
+  "tier": "T3",
+  "family": null,
+  "folder": "Centaurs",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_ce_charger",
+  "key": "ce_charger",
+  "name": "Charger",
+  "tier": "T2",
+  "family": "Centaur.Charger",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ce_chieftain",
+  "key": "ce_chieftain",
+  "name": "Chieftain",
+  "tier": "T4",
+  "family": "Centaur.Chieftain",
+  "folder": "Centaurs",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.2,
+   "lightning": 0.1,
+   "poison": -0.1,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ce_crusher",
+  "key": "ce_crusher",
+  "name": "Crusher",
+  "tier": "T2",
+  "family": "Centaur.Crusher",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_hunter",
+  "key": "ce_hunter",
+  "name": "Hunter",
+  "tier": "T3",
+  "family": "Centaur.Hunter",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_ritualist",
+  "key": "ce_ritualist",
+  "name": "Ritualist",
+  "tier": "T4",
+  "family": "Centaur.Ritualist",
+  "folder": "Centaurs",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_spirit_caller",
+  "key": "ce_spirit_caller",
+  "name": "Spirit Caller",
+  "tier": "T3",
+  "family": "Centaur.Spirit_Caller",
+  "folder": "Centaurs",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ce_warrior_axe",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ce_warrior_blunt",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Blunt",
+  "folder": "Centaurs",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_cy_arcanist",
+  "key": "cy_arcanist",
+  "name": "Arcanist",
+  "tier": "T4",
+  "family": "Cyclops.Arcanist",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_cy_arcanist_earth",
+  "key": "cy_arcanist",
+  "name": "Arcanist",
+  "tier": "T2",
+  "family": "Cyclops.Arcanist",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_cy_armorer",
+  "key": "cy_armorer",
+  "name": "Armorer",
+  "tier": "T4",
+  "family": "Automaton.Sentinel",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 4.0,
+   "strike": 4.0
+  }
+ },
+ {
+  "id": "da_cr_cy_boulder_hurler",
+  "key": "cy_boulder_hurler",
+  "name": "Boulder Hurler",
+  "tier": "T2",
+  "family": "Cyclops.Hurler",
+  "folder": "Cyclopes",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_cy_fighter",
+  "key": "cy_fighter",
+  "name": "Fighter",
+  "tier": "T2",
+  "family": "Cyclops.Fighter",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_cy_juggernaut",
+  "key": "cyclops_cyclops",
+  "name": "Cyclops",
+  "tier": "T3",
+  "family": "Cyclops.Veteran",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_cy_ranged",
+  "key": "cy_boulder_hurler",
+  "name": "Boulder Hurler",
+  "tier": "T2",
+  "family": "Cyclops.Hurler",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_cy_veteran",
+  "key": "cy_veteran",
+  "name": "Veteran",
+  "tier": "T3",
+  "family": "Cyclops.Veteran",
+  "folder": "Cyclopes",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_fire_boar_hero",
+  "key": "wl_monstrous_boar",
+  "name": "Monstrous Boar",
+  "tier": "T4",
+  "family": "Wildlife.Boars.Monstrous_Boar",
+  "folder": "HeroMonsters",
+  "res": {
+   "strike": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_bandit_huntress",
+  "key": "hm_ba_huntress",
+  "name": "The Huntress",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Bandits",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_uncatchable",
+  "key": "hm_ba_uncatchable",
+  "name": "The Uncatchable",
+  "tier": "T4",
+  "family": null,
+  "folder": "HeroMonsters/Bandits",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_bo_brawler",
+  "key": "hm_bo_hero",
+  "name": "Boarman Hero",
+  "tier": "T5",
+  "family": "Boarman.Brawler",
+  "folder": "HeroMonsters/boarmen",
+  "res": {
+   "cold": 0.15,
+   "fire": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_bo_dung_thrower",
+  "key": "hm_bo_dung_thrower",
+  "name": "Dung Thrower",
+  "tier": "T5",
+  "family": "Boarman.Axe_Thrower",
+  "folder": "HeroMonsters/boarmen",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.5,
+   "strike": 2.5
+  }
+ },
+ {
+  "id": "da_cr_burial_rites_spartan_captain_spear",
+  "key": "hm_03_ap_spartan_captain",
+  "name": "Spartan Captain",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Chapter3",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_burial_rites_spartan_captain_sword",
+  "key": "hm_03_ap_spartan_captain",
+  "name": "Spartan Captain",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Chapter3",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_cg_elite_statue",
+  "key": "ls_soldier_elite",
+  "name": "Elite Soldier",
+  "tier": "T5",
+  "family": "LivingStatues.Solider",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "fire": 0.2,
+   "lightning": 0.2,
+   "poison": 0.2,
+   "vitality": 0.2
+  },
+  "armor": {
+   "strike": 2.0,
+   "pierce": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_nemesis_high_priestess",
+  "key": "hm_nc_high_priestess_title",
+  "name": "High Priestess of Nemesis",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_nt_gardener",
+  "key": "hm_04_nt_gardener",
+  "name": "Temple Gardener",
+  "tier": "T5",
+  "family": "Nemesis_Cultists.Assassin",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "vitality": -0.1,
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_nt_gate_keeper",
+  "key": "hm_04_nt_gate_keeper",
+  "name": "Temple Gatekeeper",
+  "tier": "T5",
+  "family": "Nemesis_Cultists.Blackguard",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "cold": 0.2,
+   "fire": 0.2,
+   "lightning": 0.2,
+   "poison": 0.2,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 5.0,
+   "strike": 5.0
+  }
+ },
+ {
+  "id": "da_cr_hm_nt_quarter_master",
+  "key": "hm_04_nt_quarter_master",
+  "name": "Temple Quartermistress",
+  "tier": "T5",
+  "family": "Nemesis_Cultists.Arch_Lector",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_pans_return_aristonoe",
+  "key": "da_cr_04_hl_s_pg_aristonoe_illusion.m_CreatureDesc.Name",
+  "name": "Aristonoe",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_pans_return_skylla",
+  "key": "boss_skylla",
+  "name": "Skylla",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_pans_return_wildfire_boar",
+  "key": "hm_04_pr_wildfire_boar",
+  "name": "Wildfire Boar",
+  "tier": "T5",
+  "family": "Wildlife.Boars.Monstrous_Boar",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "fire": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_sp_speed_spirit",
+  "key": "hm_04_sp_speed_spirit_title",
+  "name": "Flighty Spirit",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "vitality": -0.1,
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_hm_tp_nemesis_guardian",
+  "key": "hm_04_tp_nemesis_guardian",
+  "name": "Nemesian Guardian",
+  "tier": "T5",
+  "family": "Nemesis_Troops.Archon",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "cold": 0.2,
+   "fire": 0.2,
+   "lightning": 0.2,
+   "poison": 0.2,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_tp_titan_priest_east",
+  "key": "hm_04_tp_east",
+  "name": "Eternal Priest of Hyperion",
+  "tier": "T5",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "cold": 0.25,
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hm_tp_titan_priest_north",
+  "key": "hm_04_tp_north",
+  "name": "Eternal Priest of Koios",
+  "tier": "T5",
+  "family": "Undead.Skeleton.Burning_Revenant",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "poison": 0.6,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_tp_titan_priest_west",
+  "key": "hm_04_tp_west",
+  "name": "Eternal Priest of Iapetos",
+  "tier": "T5",
+  "family": "Undead.Skeleton.Warlock",
+  "folder": "HeroMonsters/Chapter4",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_hm_ghost_ancient_hero",
+  "key": "hm_gh_ancient_hero",
+  "name": "Ancient Hero",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Ghosts",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_ghost_necromancer",
+  "key": "hm_gh_necromancer",
+  "name": "Nekrokalestis",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Ghosts",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_ghost_resused_champion_2haxe",
+  "key": "miniboss_aristomenes_champion",
+  "name": "Champion of Aristomenes",
+  "tier": "T4",
+  "family": null,
+  "folder": "HeroMonsters/Ghosts",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_ghost_resused_charioteer_spear",
+  "key": "miniboss_aristomenes_charioteer",
+  "name": "Charioteer of Aristomenes",
+  "tier": "T4",
+  "family": "Undead.Skeleton.Warrior",
+  "folder": "HeroMonsters/Ghosts",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_hm_ghost_resused_tactician_dagger",
+  "key": "miniboss_aristomenes_tactician",
+  "name": "Tactician of Aristomenes",
+  "tier": "T4",
+  "family": "Undead.Skeleton.Warrior",
+  "folder": "HeroMonsters/Ghosts",
+  "res": {
+   "fire": 0.2,
+   "cold": 0.2,
+   "lightning": 0.2,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_hm_ne_nemesis_hound",
+  "key": "hm_ne_nemesis_hound",
+  "name": "Hound of Nemesis",
+  "tier": "T5",
+  "family": "Wildlife.Wolf.Wolf_Regular",
+  "folder": "HeroMonsters/Nemesis",
+  "res": {
+   "lightning": 0.1,
+   "cold": 0.1,
+   "fire": 0.1,
+   "poison": 0.7,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_un_cinder_bone",
+  "key": "hm_un_cinder_bone",
+  "name": "Cinder Bone",
+  "tier": "T5",
+  "family": "Undead.Skeleton.Guard",
+  "folder": "HeroMonsters/Undead",
+  "res": {
+   "fire": 0.7,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_un_rot_bone",
+  "key": "hm_un_rot_bone",
+  "name": "Rot Bone",
+  "tier": "T5",
+  "family": null,
+  "folder": "HeroMonsters/Undead",
+  "res": {
+   "poison": 0.7,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.0
+  }
+ },
+ {
+  "id": "da_cr_hm_wl_den_mother",
+  "key": "hm_wl_den_mother",
+  "name": "Den Queen",
+  "tier": "T5",
+  "family": "Wildlife.Spiders.Broodmother",
+  "folder": "HeroMonsters/Wildlife",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hm_wl_flametail",
+  "key": "hm_wl_alpha_wolf",
+  "name": "Flametail",
+  "tier": "T5",
+  "family": "Wildlife.Wolf.Wolf_Regular",
+  "folder": "HeroMonsters/Wildlife",
+  "res": {
+   "lightning": 0.1,
+   "cold": 0.1,
+   "fire": 0.7,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_wl_frostsilk",
+  "key": "hm_wl_frostsilk",
+  "name": "Frostsilk",
+  "tier": "T5",
+  "family": "Wildlife.Spiders.Entangling_Spider",
+  "folder": "HeroMonsters/Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.25,
+   "cold": 0.5
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_wl_scorpion_queen",
+  "key": "hm_wl_scorpion_queen",
+  "name": "Scorpion Queen",
+  "tier": "T5",
+  "family": "Wildlife.Scorpions.Scorpionmother",
+  "folder": "HeroMonsters/Wildlife",
+  "res": {
+   "lightning": 0.1,
+   "cold": 0.1,
+   "fire": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.5,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_wl_stormtide",
+  "key": "hm_wl_stormtide",
+  "name": "Stormtide",
+  "tier": "T5",
+  "family": "Wildlife.Turtles.Snapping_Turtle",
+  "folder": "HeroMonsters/Wildlife",
+  "res": {
+   "lightning": 0.2,
+   "cold": 0.2,
+   "fire": 0.2,
+   "poison": 0.2,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 6.0,
+   "strike": 6.0
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit2_leader_onetas",
+  "key": "ba_leader_onetas",
+  "name": "Onetas",
+  "tier": "T4",
+  "family": "Human.Bandit.Leader",
+  "folder": "Human/BronzeBandits",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_bodyguard",
+  "key": "ba_bodyguard",
+  "name": "Bodyguard",
+  "tier": "T2",
+  "family": "Human.Bandit.Bodyguard",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 4.5,
+   "strike": 4.0
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_cutthroat",
+  "key": "ba_cutthroat",
+  "name": "Cutthroat",
+  "tier": "T3",
+  "family": "Human.Bandit.Cutthroat",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_highway",
+  "key": "ba_highwayman",
+  "name": "Highwayman",
+  "tier": "T1",
+  "family": "Human.Bandit.Highwayman",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_leader",
+  "key": "ba_leader",
+  "name": "Chief",
+  "tier": "T4",
+  "family": "Human.Bandit.Leader",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_marauder",
+  "key": "ba_marauder",
+  "name": "Marauder",
+  "tier": "T2",
+  "family": "Human.Bandit.Marauder",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 2.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_ragged",
+  "key": "ba_ragged",
+  "name": "Wretch",
+  "tier": "T1",
+  "family": "Human.Bandit.Ragged_Bandit",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_ranger",
+  "key": "ba_ranger",
+  "name": "Ranger",
+  "tier": "T2",
+  "family": "Human.Bandit.Ranger",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "fire": 0.25,
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_scoundrel",
+  "key": "ba_scoundrel",
+  "name": "Scoundrel",
+  "tier": "T1",
+  "family": "Human.Bandit.Scoundrel",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_trainee_ice",
+  "key": "ba_trainee_ice",
+  "name": "Ice Neophyte",
+  "tier": "T2",
+  "family": "Human.Bandit.Ice_Trainee",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "cold": 0.25,
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_trainee_lightning",
+  "key": "ba_trainee_lightning",
+  "name": "Lightning Neophyte",
+  "tier": "T2",
+  "family": "Human.Bandit.Lightning_Trainee",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "lightning": 0.25,
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_bandit_trapper",
+  "key": "ba_trapper",
+  "name": "Trapper",
+  "tier": "T3",
+  "family": "Human.Bandit.Trapper",
+  "folder": "Human/GryphonBandits",
+  "res": {
+   "fire": 0.25,
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_adept_fire",
+  "key": "nc_adept",
+  "name": "Adept",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Fire_Adept",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_adept_ice",
+  "key": "nc_adept",
+  "name": "Adept",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Ice_Adept",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_adept_lightning",
+  "key": "nc_adept",
+  "name": "Adept",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Lightning_Adept",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_arch_lector",
+  "key": "nc_arch_lector",
+  "name": "Arch Lector",
+  "tier": "T3",
+  "family": "Nemesis_Cultists.Arch_Lector",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_assassin",
+  "key": "nc_assassin",
+  "name": "Assassin",
+  "tier": "T3",
+  "family": "Nemesis_Cultists.Assassin",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_assassin_wanted_event",
+  "key": "nc_assassin",
+  "name": "Assassin",
+  "tier": "T3",
+  "family": "Nemesis_Cultists.Assassin",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_consecrator",
+  "key": "nc_consecrator",
+  "name": "Consecrator",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Consecrator",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_disciple",
+  "key": "nc_disciple",
+  "name": "Disciple",
+  "tier": "T1",
+  "family": "Nemesis_Cultists.Disciple",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_initiate",
+  "key": "nc_initiate",
+  "name": "Initiate",
+  "tier": "T1",
+  "family": "Nemesis_Cultists.Initiate",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_priest",
+  "key": "nc_priest",
+  "name": "Priest",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Priest",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_nc_punisher",
+  "key": "nc_punisher",
+  "name": "Punisher",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Punisher",
+  "folder": "Human/NemesisCult",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 2.5
+  }
+ },
+ {
+  "id": "da_cr_ic_alchemist",
+  "key": "ic_alchemist",
+  "name": "Alchemist",
+  "tier": "T2",
+  "family": "Ichthian.Anglerfish.Alchemist",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_alchemist_leader",
+  "key": "ic_alchemist_leader",
+  "name": "Exalted Alchemist",
+  "tier": "T4",
+  "family": "Ichthian.Anglerfish.Alchemist_Leader",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.25,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ic_bruiser",
+  "key": "ic_bruiser",
+  "name": "Bruiser",
+  "tier": "T1",
+  "family": "Ichthian.Sharkhead.Bruiser",
+  "folder": "Ichthian",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.35,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_brute",
+  "key": "ic_brute",
+  "name": "Brute",
+  "tier": "T3",
+  "family": "Ichthian.Anglerfish.Brute",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.2
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ic_brute_leader",
+  "key": "ic_brute_leader",
+  "name": "Massive Brute",
+  "tier": "T4",
+  "family": "Ichthian.Anglerfish.Brute_Leader",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.25,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ic_commander",
+  "key": "ic_commander",
+  "name": "Commander",
+  "tier": "T4",
+  "family": "Ichthian.Sharkhead.Commander",
+  "folder": "Ichthian",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.35,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 5.0
+  }
+ },
+ {
+  "id": "da_cr_ic_crab",
+  "key": "ic_crab",
+  "name": "Crab",
+  "tier": "T1",
+  "family": "Ichthian.Crab.SmallCrab",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.1,
+   "lightning": -0.1
+  },
+  "armor": {
+   "pierce": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ic_guard",
+  "key": "ic_guard",
+  "name": "Guardian",
+  "tier": "T2",
+  "family": "Ichthian.Anglerfish.Guard",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ic_hunter",
+  "key": "ic_hunter",
+  "name": "Mancatcher",
+  "tier": "T3",
+  "family": "Ichthian.Hammerhead.Hunter",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.2
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_hydromancer",
+  "key": "ic_hydromancer",
+  "name": "Hydromancer",
+  "tier": "T2",
+  "family": "Ichthian.Hammerhead.Hydromancer",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15,
+   "lightning": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_hydromancer_leader",
+  "key": "ic_hydromancer_leader",
+  "name": "Master Hydromancer",
+  "tier": "T4",
+  "family": "Ichthian.Hammerhead.Hydromancer_Leader",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.25,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ic_kingcrab",
+  "key": "ic_kingcrab",
+  "name": "King Crab",
+  "tier": "T2",
+  "family": "Ichthian.Crab.KingCrab",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15,
+   "lightning": -0.1
+  },
+  "armor": {
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ic_kingCrab_leader",
+  "key": "ic_kingcrab_leader",
+  "name": "Emperor Crab",
+  "tier": "T4",
+  "family": "Ichthian.Crab.KingCrab_Leader",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.35,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 5.0
+  }
+ },
+ {
+  "id": "da_cr_ic_militia",
+  "key": "ic_militia",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Ichthian.Hammerhead.Militia",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_mudcrab",
+  "key": "ic_mudcrab",
+  "name": "Mud Crab",
+  "tier": "T2",
+  "family": "Ichthian.Crab.MudCrab",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15,
+   "lightning": -0.1
+  },
+  "armor": {
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ic_necromancer",
+  "key": "ic_necromancer",
+  "name": "Necromancer",
+  "tier": "T4",
+  "family": "Ichthian.Hammerhead.Necromancer",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.25,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ic_ranger",
+  "key": "ic_ranger",
+  "name": "Hunter",
+  "tier": "T2",
+  "family": "Ichthian.Hammerhead.Ranger",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_shaman",
+  "key": "ic_shaman",
+  "name": "Enchanter",
+  "tier": "T1",
+  "family": "Ichthian.Hammerhead.Shaman",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.15
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_shaman_leader",
+  "key": "ic_shaman_leader",
+  "name": "First Enchanter",
+  "tier": "T4",
+  "family": "Ichthian.Hammerhead.Shaman_Leader",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.25,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ic_trooper",
+  "key": "ic_trooper",
+  "name": "Trooper",
+  "tier": "T1",
+  "family": "Ichthian.Anglerfish.Trooper",
+  "folder": "Ichthian",
+  "res": {
+   "cold": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_un_brute",
+  "key": "ic_undead_brute",
+  "name": "Undead Brute",
+  "tier": "T3",
+  "family": "Ichthian.Anglerfish.Brute_Undead",
+  "folder": "Ichthian/Undead",
+  "res": {
+   "cold": 0.2,
+   "poison": 0.6,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ic_un_militia",
+  "key": "ic_undead_militia",
+  "name": "Undead Warrior",
+  "tier": "T1",
+  "family": "Ichthian.Hammerhead.Militia_Undead",
+  "folder": "Ichthian/Undead",
+  "res": {
+   "cold": 0.1,
+   "poison": 0.4,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 0.0
+  }
+ },
+ {
+  "id": "da_cr_ic_un_trooper",
+  "key": "ic_undead_trooper",
+  "name": "Undead Trooper",
+  "tier": "T1",
+  "family": "Ichthian.Anglerfish.Trooper_Undead",
+  "folder": "Ichthian/Undead",
+  "res": {
+   "cold": 0.1,
+   "poison": 0.4,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 0.0
+  }
+ },
+ {
+  "id": "da_cr_ic_un_brute_titanic",
+  "key": "ic_undead_brute",
+  "name": "Undead Brute",
+  "tier": "T4",
+  "family": "DivineChallenge",
+  "folder": "Ichthian/Undead/Variants",
+  "res": {
+   "poison": 0.6,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ls_hoplite",
+  "key": "ls_hoplite",
+  "name": "Hoplite",
+  "tier": "T2",
+  "family": "LivingStatues.Hoplite",
+  "folder": "LivingStatues",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 3.0,
+   "pierce": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ls_juggernaught",
+  "key": "ls_juggernaught",
+  "name": "Juggernaut",
+  "tier": "T3",
+  "family": "LivingStatues.Juggernaught",
+  "folder": "LivingStatues",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 2.5,
+   "pierce": 2.5
+  }
+ },
+ {
+  "id": "da_cr_ls_soldier",
+  "key": "ls_soldier",
+  "name": "Soldier",
+  "tier": "T2",
+  "family": "LivingStatues.Solider",
+  "folder": "LivingStatues",
+  "res": {
+   "fire": 0.2,
+   "cold": -0.2,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "strike": 2.0,
+   "pierce": 2.0
+  }
+ },
+ {
+  "id": "da_cr_mb_hippocampus_foal",
+  "key": "wl_hippokampos_foal",
+  "name": "Hippokampos Foal",
+  "tier": "T3",
+  "family": "Mythical.Hippocampus.Foal",
+  "folder": "MythicalBeasts",
+  "res": {
+   "cold": 0.25,
+   "lightning": 0.15
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ce_02_ap_m_ix_dungeon_brandbearer_02_female",
+  "key": "ce_archer",
+  "name": "Archer",
+  "tier": "T1",
+  "family": "Centaur.Archer",
+  "folder": "Narrative/ArkadianPlains/Mainline/IxionDungeon",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ce_03_ap_m_ix_dungeon_brandbearer_01_male",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Narrative/ArkadianPlains/Mainline/IxionDungeon",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_scorpion_character_olympos",
+  "key": "da_cr_scorpion_character_olympos.m_CreatureDesc.Title",
+  "name": "Companion to Orion",
+  "tier": "T1",
+  "family": "Wildlife.Scorpions",
+  "folder": "Narrative/ArkadianPlains/Mainline/Olymp/OlymposCitification",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_03_ap_m_ts_pet_crocolisk_01",
+  "key": "da_cr_wl_03_ap_m_ts_pet_crocolisk_01.m_CreatureDesc.Name",
+  "name": "Habros",
+  "tier": "T3",
+  "family": "Wildlife.Crocolisks.Wetland_Crocolisk",
+  "folder": "Narrative/ArkadianPlains/Mainline/TegeaSewers",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_wl_03_ap_m_ts_pet_crocolisk_02",
+  "key": "da_cr_wl_03_ap_m_ts_pet_crocolisk_02.m_CreatureDesc.Name",
+  "name": "Philatos",
+  "tier": "T3",
+  "family": "Wildlife.Crocolisks.Wetland_Crocolisk",
+  "folder": "Narrative/ArkadianPlains/Mainline/TegeaSewers",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ce_03_ap_as_hipparion",
+  "key": "da_cr_ce_03_ap_as_hipparion.m_CreatureDesc.Title",
+  "name": "Twice-Born",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Narrative/ArkadianPlains/Sideline/AresSlaughterhouse",
+  "res": {
+   "cold": 0.15,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_03_ap_s_te_tegea_mugging_attacker",
+  "key": "da_cr_03_ap_s_te_tegea_mugging_attacker.m_CreatureDesc.Name",
+  "name": "Tegean Citizen",
+  "tier": "T2",
+  "family": "Human",
+  "folder": "Narrative/ArkadianPlains/Sideline/TegeaCitification",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ce_warrior_blunt1",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Blunt",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/Cornucopia",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_03_ap_s_gw_wolf",
+  "key": "wl_wolf",
+  "name": "Wolf",
+  "tier": "T1",
+  "family": "Special.Soul",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/GhostWolf",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_earth",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_jupiter",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_mars",
+  "key": "da_03_ap_s_ss_riddle_skeleton_mars.m_CreatureDesc.Title",
+  "name": "Mars",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_mercury",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_saturn",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_sun",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_03_ap_s_ss_riddle_skeleton_venus",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Narrative/ArkadianPlains/Sideline/TinyEvents/SevenSkeletons",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.5,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_h_05_cm_s_aa_lyra_female",
+  "key": "da_cr_h_05_cm_s_aa_lyra_female.m_CreatureDesc.Title",
+  "name": "Scavenging Tinkerer",
+  "tier": "T3",
+  "family": null,
+  "folder": "Narrative/CyclopsMountains/Sideline/AresAutomaton",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_m_brandbearer_passage_warchief",
+  "key": "ce_chieftain",
+  "name": "Chieftain",
+  "tier": "T4",
+  "family": "Centaur.Chieftain",
+  "folder": "Narrative/HolyLand/Mainline/PoisonField",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.2,
+   "lightning": 0.1,
+   "poison": -0.1,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_wl_04_hl_s_al_arachne_spider",
+  "key": "da_cr_wl_04_hl_s_al_arachne_spider.m_CreatureDesc.Title",
+  "name": "Mother of Spiders",
+  "tier": "T1",
+  "family": "Wildlife.Spiders.Poison_Spider",
+  "folder": "Narrative/HolyLand/Sideline/ArachnesLair",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_agarista_combat_",
+  "key": "ce_hunter",
+  "name": "Hunter",
+  "tier": "T3",
+  "family": "Centaur.Hunter",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_priskos_normal",
+  "key": "ce_caller_plague",
+  "name": "Plague Caller",
+  "tier": "T2",
+  "family": "Centaur.Plague_Caller",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_eagle_01",
+  "key": "wl_giant_eagle",
+  "name": "Ravenous Eagle",
+  "tier": "T2",
+  "family": "Wildlife.Eagle.Giant_Eagle",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_haemon_north_guard",
+  "key": "ce_crusher",
+  "name": "Crusher",
+  "tier": "T2",
+  "family": "Centaur.Crusher",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_peithon_combat",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_injured_wolf",
+  "key": "wl_wolf",
+  "name": "Wolf",
+  "tier": "T1",
+  "family": "Wildlife.Wolf.Wolf_Regular",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/Animals",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_sick_lion",
+  "key": "wl_lion_male",
+  "name": "Lion",
+  "tier": "T2",
+  "family": "Wildlife.Lions.Male",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/Animals",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_animal_protector_COMBAT",
+  "key": "ce_caller_plague",
+  "name": "Plague Caller",
+  "tier": "T2",
+  "family": "Centaur.Plague_Caller",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_blacksmith_COMBAT",
+  "key": "ce_charger",
+  "name": "Charger",
+  "tier": "T2",
+  "family": "Centaur.Charger",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_hunter_merchant_COMBAT",
+  "key": "ce_alpha",
+  "name": "Alpha",
+  "tier": "T3",
+  "family": "Centaur.Alpha",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_magic_merchant_COMBAT",
+  "key": "ce_spirit_caller",
+  "name": "Spirit Caller",
+  "tier": "T3",
+  "family": "Centaur.Spirit_Caller",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_priskos_combat",
+  "key": "ce_caller_plague",
+  "name": "Plague Caller",
+  "tier": "T2",
+  "family": "Centaur.Plague_Caller",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "lightning": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_stash_merchant_COMBAT",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_centaur_thyestes_sick_COMBAT",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_haemon_north_guard_combat",
+  "key": "ce_crusher",
+  "name": "Crusher",
+  "tier": "T2",
+  "family": "Centaur.Crusher",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_04_hl_citi_hierax_combat_version_chieftain",
+  "key": "ce_charger",
+  "name": "Charger",
+  "tier": "T2",
+  "family": "Centaur.Charger",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_m_centaur_hub_religious_father_COMBAT",
+  "key": "ce_warrior",
+  "name": "Warrior",
+  "tier": "T1",
+  "family": "Centaur.Warrior_Axe",
+  "folder": "Narrative/HolyLand/Sideline/Citification/CentaurHubCitification/HubAttackAlternates",
+  "res": {
+   "strike": -0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_h_04_hl_s_np_bia_female",
+  "key": "da_cr_h_04_hl_s_np_bia_female.m_CreatureDesc.Title",
+  "name": "Priestess of Nemesis",
+  "tier": "T2",
+  "family": "Nemesis_Cultists.Punisher",
+  "folder": "Narrative/HolyLand/Sideline/NemesisPriestess",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 2.5
+  }
+ },
+ {
+  "id": "da_cr_h_04_hl_s_np_dolene_female",
+  "key": "da_cr_h_04_hl_s_np_dolene_female.m_CreatureDesc.Title",
+  "name": "Priestess of Nemesis",
+  "tier": "T3",
+  "family": "Nemesis_Cultists.Assassin",
+  "folder": "Narrative/HolyLand/Sideline/NemesisPriestess",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_h_04_hl_s_np_ino_female",
+  "key": "da_cr_h_04_hl_s_np_ino_female.m_CreatureDesc.Title",
+  "name": "Interrogator of Nemesis",
+  "tier": "T3",
+  "family": null,
+  "folder": "Narrative/HolyLand/Sideline/NemesisPriestess",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.2,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_04_hl_s_pg_aristonoe_illusion",
+  "key": "da_cr_04_hl_s_pg_aristonoe_illusion.m_CreatureDesc.Name",
+  "name": "Aristonoe",
+  "tier": "T2",
+  "family": null,
+  "folder": "Narrative/HolyLand/Sideline/PansGrove",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_c_04_hl_s_gc_athanoros_male",
+  "key": "da_cr_c_04_hl_s_gc_athanoros_male.m_CreatureDesc.Title",
+  "name": "Pyre Shade",
+  "tier": "T4",
+  "family": "Centaur.Alpha",
+  "folder": "Narrative/HolyLand/Sideline/TinyEvents/GhostCentaur",
+  "res": {},
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_c_04_hl_s_gc_windrunner_male",
+  "key": "da_cr_c_04_hl_s_gc_windrunner_male.m_CreatureDesc.Title",
+  "name": "Pyre Shade",
+  "tier": "T4",
+  "family": "Centaur.Charger",
+  "folder": "Narrative/HolyLand/Sideline/TinyEvents/GhostCentaur",
+  "res": {
+   "cold": 0.1,
+   "fire": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_hm_sp_speed_spirit_friendly",
+  "key": "hm_04_sp_speed_spirit_title",
+  "name": "Flighty Spirit",
+  "tier": "T5",
+  "family": null,
+  "folder": "Narrative/HolyLand/Sideline/TinyEvents/SpiritPath",
+  "res": {
+   "vitality": -0.1,
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_02_nb_m_if_old_ichthian",
+  "key": "unique_02_nb_m_if_old_ichthian_title",
+  "name": "Ichthian Shaman",
+  "tier": "T4",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/North/Mainline/IchthianFortress",
+  "res": {
+   "cold": 0.25,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_02_nb_m_mr_hostile_priest",
+  "key": "da_cr_02_nb_m_mr_hostile_priest.m_CreatureDesc.Name",
+  "name": "Deranged Priest",
+  "tier": "T2",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/North/Mainline/MycenaeanRuins",
+  "res": {
+   "vitality": -0.1
+  },
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_01_nb_s_ae_anaxis",
+  "key": "da_cr_01_nb_s_ae_anaxis.m_CreatureDesc.Name",
+  "name": "Anaxis",
+  "tier": "T2",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/North/Sideline/ArrogantEngineer",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_un_skeleton_guard_golden_speaker_base2",
+  "key": "un_skeleton_guard",
+  "name": "Guard",
+  "tier": "T3",
+  "family": "Undead.Skeleton.Guard",
+  "folder": "Narrative/IchthianCoast/North/Sideline/GoldenSkeletons",
+  "res": {
+   "poison": 0.6,
+   "vitality": 0.7
+  },
+  "armor": {
+   "pierce": 4.5,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_01_ff_m_bs_merchant_guard_01",
+  "key": "da_cr_01_ff_m_bs_merchant_guard_01.m_CreatureDesc.Name",
+  "name": "Guard",
+  "tier": "T2",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Mainline/PreHub",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_m_bs_merchant_guard_02",
+  "key": "da_cr_01_ff_m_bs_merchant_guard_02.m_CreatureDesc.Name",
+  "name": "Guard",
+  "tier": "T2",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Mainline/PreHub",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_m_vy_mother_illusion",
+  "key": "da_cr_01_ff_m_vy_mother_illusion.m_CreatureDesc.Name",
+  "name": "Aristonoe",
+  "tier": "T2",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Mainline/Vineyard",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_m_vy_wild_one",
+  "key": "da_cr_01_ff_m_vy_wild_one.m_CreatureDesc.Name",
+  "name": "Wild One",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Mainline/Vineyard",
+  "res": {},
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_01_ff_m_vy_talking_wild_one_01",
+  "key": "da_cr_01_ff_m_vy_talking_wild_one_01.m_CreatureDesc.Name",
+  "name": "Wild One",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Mainline/Vineyard/VineyardCitification",
+  "res": {},
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_01_ff_m_vy_talking_wild_one_02",
+  "key": "da_cr_01_ff_m_vy_talking_wild_one_02.m_CreatureDesc.Name",
+  "name": "Wild One",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Mainline/Vineyard/VineyardCitification",
+  "res": {},
+  "armor": {
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_hu_content_bandit_melee",
+  "key": "da_cr_hu_content_bandit_melee.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_CommanderRizon",
+  "key": "da_cr_IC_S1_CommanderRizon.m_CreatureDesc.Name",
+  "name": "Rizon",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_be_hecuba",
+  "key": "da_cr_01_ff_s_be_hecuba.m_CreatureDesc.Name",
+  "name": "Hecuba",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/BridgeEvent",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_gh_miniboss_aristomenes_sword",
+  "key": "miniboss_aristomenes",
+  "name": "King of Messenia",
+  "tier": "T5",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/BurialRites/GhostSoldiers",
+  "res": {
+   "fire": 0.25,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 4.5,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_gh_miniboss_champion_2haxe",
+  "key": "miniboss_aristomenes_champion",
+  "name": "Champion of Aristomenes",
+  "tier": "T4",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/BurialRites/GhostSoldiers",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_gh_miniboss_charioteer_spear",
+  "key": "miniboss_aristomenes_charioteer",
+  "name": "Charioteer of Aristomenes",
+  "tier": "T4",
+  "family": "Undead.Skeleton.Warrior",
+  "folder": "Narrative/IchthianCoast/South/Sideline/BurialRites/GhostSoldiers",
+  "res": {
+   "fire": 0.15,
+   "cold": 0.15,
+   "lightning": 0.15,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_gh_miniboss_tactician_dagger",
+  "key": "miniboss_aristomenes_tactician",
+  "name": "Tactician of Aristomenes",
+  "tier": "T4",
+  "family": "Undead.Skeleton.Warrior",
+  "folder": "Narrative/IchthianCoast/South/Sideline/BurialRites/GhostSoldiers",
+  "res": {
+   "fire": 0.2,
+   "cold": 0.2,
+   "lightning": 0.2,
+   "poison": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_01_ff_enclave_citi_wild_one_preacher",
+  "key": "da_cr_01_ff_enclave_citi_wild_one_preacher.m_CreatureDesc.Name",
+  "name": "Wild One",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/Citification",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_GenericMilitiaFemale1",
+  "key": "da_cr_IC_S1_EN_GenericMilitiaFemale1.m_CreatureDesc.Name",
+  "name": "Militia",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_GenericMilitiaFemale2",
+  "key": "da_cr_IC_S1_EN_GenericMilitiaFemale2.m_CreatureDesc.Name",
+  "name": "Militia",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_GenericMilitiaMale1",
+  "key": "da_cr_IC_S1_EN_GenericMilitiaMale1.m_CreatureDesc.Name",
+  "name": "Militia",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_GenericMilitiaMale2",
+  "key": "da_cr_IC_S1_EN_GenericMilitiaMale2.m_CreatureDesc.Name",
+  "name": "Militia",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_MilitiaCaptainITA",
+  "key": "da_cr_IC_S1_EN_MilitiaCaptainITA.m_CreatureDesc.Name",
+  "name": "Militia Captain",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_MilitiaCaptainSE",
+  "key": "da_cr_IC_S1_EN_MilitiaCaptainSE.m_CreatureDesc.Name",
+  "name": "Militia Captain",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_EN_MilitiaCaptainSW",
+  "key": "da_cr_IC_S1_EN_MilitiaCaptainSW.m_CreatureDesc.Name",
+  "name": "Militia Captain",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/EnclaveAttacks",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_gns_gorgon_snake_placeholder",
+  "key": "da_cr_01_ff_s_gns_gorgon_snake_placeholder.m_CreatureDesc.Name",
+  "name": "Gorgon Snake",
+  "tier": "T3",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/Enclave/GorgonSnake",
+  "res": {
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 2.5,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ic_01_ff_s_mh_ichtian_sword_thief",
+  "key": "da_cr_ic_01_ff_s_mh_ichtian_sword_thief.m_CreatureDesc.Name",
+  "name": "Ichthian Militia",
+  "tier": "T1",
+  "family": "Ichthian.Hammerhead.Militia",
+  "folder": "Narrative/IchthianCoast/South/Sideline/HeroicSpirit",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_mr_nireus",
+  "key": "da_cr_01_ff_s_mr_nireus.m_CreatureDesc.Name",
+  "name": "Nireus",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/MIlitiaResolve",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_MR_Soldier1",
+  "key": "da_cr_IC_S1_MR_Soldier1.m_CreatureDesc.Name",
+  "name": "Militia Soldier",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/MIlitiaResolve",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_IC_S1_MR_Soldier2",
+  "key": "da_cr_IC_S1_MR_Soldier2.m_CreatureDesc.Name",
+  "name": "Militia Soldier",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/MIlitiaResolve",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_mi_talking_minyade_combat_abilities",
+  "key": "da_cr_01_ff_s_mi_talking_minyade_combat_abilities.m_CreatureDesc.Name",
+  "name": "Minyade",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/MinyadeQuest",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_modernhero_kaenas",
+  "key": "da_cr_modernhero_kaenas.m_CreatureDesc.Name",
+  "name": "Kaenas",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/ModernHero",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_chryse",
+  "key": "da_cr_01_ff_s_chryse.m_CreatureDesc.Name",
+  "name": "Chryse",
+  "tier": "T1",
+  "family": "Human",
+  "folder": "Narrative/IchthianCoast/South/Sideline/Pyrgos",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_1",
+  "key": "da_cr_01_ff_s_rl_bandit_1.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_10",
+  "key": "da_cr_01_ff_s_rl_bandit_10.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_11",
+  "key": "da_cr_01_ff_s_rl_bandit_11.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_12",
+  "key": "da_cr_01_ff_s_rl_bandit_12.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_13",
+  "key": "da_cr_01_ff_s_rl_bandit_13.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_14",
+  "key": "da_cr_01_ff_s_rl_bandit_14.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_15",
+  "key": "da_cr_01_ff_s_rl_bandit_15.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_16",
+  "key": "da_cr_01_ff_s_rl_bandit_16.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_17",
+  "key": "da_cr_01_ff_s_rl_bandit_17.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_18",
+  "key": "da_cr_01_ff_s_rl_bandit_18.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_2_",
+  "key": "da_cr_01_ff_s_rl_bandit_2_.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_3_",
+  "key": "da_cr_01_ff_s_rl_bandit_3_.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_4",
+  "key": "da_cr_01_ff_s_rl_bandit_4.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_5",
+  "key": "da_cr_01_ff_s_rl_bandit_5.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_6",
+  "key": "da_cr_01_ff_s_rl_bandit_6.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_7",
+  "key": "da_cr_01_ff_s_rl_bandit_7.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_8",
+  "key": "da_cr_01_ff_s_rl_bandit_8.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_9",
+  "key": "da_cr_01_ff_s_rl_bandit_9.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_01_ff_s_rl_bandit_gate_3",
+  "key": "da_cr_01_ff_s_rl_bandit_gate_3.m_CreatureDesc.Name",
+  "name": "Bronze Lion",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IchthianCoast/South/Sideline/RaidersLanding",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_00_in_m_tu_gryhpon_worshipper_leader",
+  "key": "ba_ranger",
+  "name": "Ranger",
+  "tier": "T2",
+  "family": "Human.Bandit.Ranger",
+  "folder": "Narrative/IntroChapter",
+  "res": {},
+  "armor": {
+   "pierce": 0.2,
+   "strike": 0.3
+  }
+ },
+ {
+  "id": "da_cr_00_in_tu_old_hunter",
+  "key": "da_cr_00_in_tu_old_hunter.m_CreatureDesc.Name",
+  "name": "Diocles",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IntroChapter",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_00_in_tu_village_hunter_leader",
+  "key": "da_cr_00_in_tu_village_hunter_leader.m_CreatureDesc.Name",
+  "name": "Laodamia",
+  "tier": "T1",
+  "family": null,
+  "folder": "Narrative/IntroChapter",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_ne_accusingshadow",
+  "key": "ne_accusing_shadow",
+  "name": "Accusing Shadow",
+  "tier": "T1",
+  "family": "Nemesis_Troops.Accusing_Shadow",
+  "folder": "Nemesis",
+  "res": {
+   "strike": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ne_empusa_archon",
+  "key": "ne_empusa_archon",
+  "name": "Archon",
+  "tier": "T3",
+  "family": "Nemesis_Troops.Archon",
+  "folder": "Nemesis",
+  "res": {
+   "strike": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ne_empusa_magistrate",
+  "key": "ne_empusa_magistrate",
+  "name": "Magistrate",
+  "tier": "T3",
+  "family": "Nemesis_Troops.Magistrate",
+  "folder": "Nemesis",
+  "res": {
+   "strike": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ne_empusa_punisher",
+  "key": "ne_empusa_punisher",
+  "name": "Punisher",
+  "tier": "T2",
+  "family": "Nemesis_Troops.Punisher",
+  "folder": "Nemesis",
+  "res": {
+   "strike": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_ne_stalkingshadow",
+  "key": "ne_stalking_shadow",
+  "name": "Stalking Shadow",
+  "tier": "T2",
+  "family": "Nemesis_Troops.Stalking_Shadow",
+  "folder": "Nemesis",
+  "res": {
+   "strike": 0.15,
+   "vitality": 0.15
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_ol_au_fire_spirit",
+  "key": "automaton_automaton",
+  "name": "Automaton",
+  "tier": "T2",
+  "family": "Automaton.Burner",
+  "folder": "OlympicAutomatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_ol_au_hoplite",
+  "key": "automaton_automaton",
+  "name": "Automaton",
+  "tier": "T1",
+  "family": "Automaton.Hoplite",
+  "folder": "OlympicAutomatons",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_ol_au_lightning_spirit",
+  "key": "automaton_automaton",
+  "name": "Automaton",
+  "tier": "T2",
+  "family": "Automaton.Shocker",
+  "folder": "OlympicAutomatons",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_pet_anglerfish",
+  "key": "pet_anglerfish",
+  "name": "Lil\\'Ichthos",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_cat",
+  "key": "pet_cat",
+  "name": "Sphinke",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_dog",
+  "key": "pet_dog",
+  "name": "Laelapup",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_eagle",
+  "key": "pet_eagle",
+  "name": "Aeolotos",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_scorpy",
+  "key": "pet_scorpion",
+  "name": "Scorpy",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_spider",
+  "key": "pet_spider",
+  "name": "Arachnospawn",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_turtle",
+  "key": "pet_turtle",
+  "name": "Baby Turtle",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_pet_wolf",
+  "key": "pet_wolf",
+  "name": "Babis",
+  "tier": "T1",
+  "family": null,
+  "folder": "Pets",
+  "res": {},
+  "armor": {}
+ },
+ {
+  "id": "da_cr_un_skeleton_archer",
+  "key": "un_skeleton_archer",
+  "name": "Archer",
+  "tier": "T1",
+  "family": "Undead.Skeleton.Archer",
+  "folder": "Undead",
+  "res": {
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {}
+ },
+ {
+  "id": "da_cr_un_skeleton_evoker_fire",
+  "key": "un_skeleton_evoker_fire",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Fire_Evoker",
+  "folder": "Undead",
+  "res": {
+   "fire": 0.25,
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_evoker_ice",
+  "key": "un_skeleton_evoker_ice",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Ice_Evoker",
+  "folder": "Undead",
+  "res": {
+   "cold": 0.25,
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_evoker_lightning",
+  "key": "un_skeleton_evoker_lightning",
+  "name": "Evoker",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Lightning_Evoker",
+  "folder": "Undead",
+  "res": {
+   "lightning": 0.25,
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_fighter",
+  "key": "un_skeleton_fighter",
+  "name": "Fighter",
+  "tier": "T1",
+  "family": "Undead.Skeleton.Fighter",
+  "folder": "Undead",
+  "res": {
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {}
+ },
+ {
+  "id": "da_cr_un_skeleton_guard",
+  "key": "un_skeleton_guard",
+  "name": "Guard",
+  "tier": "T3",
+  "family": "Undead.Skeleton.Guard",
+  "folder": "Undead",
+  "res": {
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 4.5,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_revenant_burning",
+  "key": "un_skeleton_revenant_burning",
+  "name": "Burning Revenant",
+  "tier": "T3",
+  "family": "Undead.Skeleton.Burning_Revenant",
+  "folder": "Undead",
+  "res": {
+   "fire": 0.3,
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_revenant_frost",
+  "key": "un_skeleton_revenant_frost",
+  "name": "Frost Revenant",
+  "tier": "T3",
+  "family": "Undead.Skeleton.Frost_Revenant",
+  "folder": "Undead",
+  "res": {
+   "cold": 0.3,
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_revenant_plague",
+  "key": "un_skeleton_revenant_plague",
+  "name": "Plague Revenant",
+  "tier": "T3",
+  "family": "Undead.Skeleton.Plague_Revenant",
+  "folder": "Undead",
+  "res": {
+   "poison": 0.7,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 3.5
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_revenant_storm",
+  "key": "un_skeleton_revenant_storm",
+  "name": "Storm Revenant",
+  "tier": "T3",
+  "family": "Undead.Skeleton.Storm_Revenant",
+  "folder": "Undead",
+  "res": {
+   "lightning": 0.3,
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_warlock",
+  "key": "un_skeleton_warlock",
+  "name": "Warlock",
+  "tier": "T4",
+  "family": "Undead.Skeleton.Warlock",
+  "folder": "Undead",
+  "res": {
+   "fire": 0.1,
+   "cold": 0.1,
+   "lightning": 0.1,
+   "poison": 0.1,
+   "vitality": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_un_skeleton_warrior",
+  "key": "un_skeleton_warrior",
+  "name": "Warrior",
+  "tier": "T2",
+  "family": "Undead.Skeleton.Warrior",
+  "folder": "Undead",
+  "res": {
+   "poison": 0.4,
+   "vitality": 0.2
+  },
+  "armor": {
+   "pierce": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_alpha_wolf",
+  "key": "wl_wolf_alpha",
+  "name": "Alpha Wolf",
+  "tier": "T3",
+  "family": "Wildlife.Wolf.Wolf_Alpha",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.5
+  }
+ },
+ {
+  "id": "da_cr_wl_boar",
+  "key": "wl_boar",
+  "name": "Boar",
+  "tier": "T2",
+  "family": "Wildlife.Boars.Boar",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_bomber_spider",
+  "key": "wl_bomber_spider",
+  "name": "Exploding Spider",
+  "tier": "T2",
+  "family": "Wildlife.Spiders.Bomber_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_cobra",
+  "key": "wl_cobra",
+  "name": "Cobra",
+  "tier": "T1",
+  "family": "Wildlife.Snakes.Cobra",
+  "folder": "Wildlife",
+  "res": {
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_wl_crested_lizard",
+  "key": "wl_crested_lizard",
+  "name": "Crested Lizard",
+  "tier": "T2",
+  "family": "Wildlife.Giant_Lizard.Crested",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_crested_lizard_fire",
+  "key": "wl_crested_lizard",
+  "name": "Crested Lizard",
+  "tier": "T2",
+  "family": "Wildlife.Giant_Lizard.Crested",
+  "folder": "Wildlife",
+  "res": {
+   "fire": 0.2
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_crocolisk",
+  "key": "wl_crocolisk",
+  "name": "Dryland Crocolisk",
+  "tier": "T3",
+  "family": "Wildlife.Crocolisks.Dryland_Crocolisk",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_wl_crocolisk_wetland",
+  "key": "wl_crocolisk_wetland",
+  "name": "Wetland Crocolisk",
+  "tier": "T3",
+  "family": "Wildlife.Crocolisks.Wetland_Crocolisk",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_wl_diving_eagle",
+  "key": "wl_diving_eagle",
+  "name": "Giant Eagle",
+  "tier": "T3",
+  "family": "Wildlife.Eagle.Diving_Eagle",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_entangling_spider",
+  "key": "wl_entangling_spider",
+  "name": "Entangling Spider",
+  "tier": "T2",
+  "family": "Wildlife.Spiders.Entangling_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_flaming_spider",
+  "key": "wl_flaming_spider",
+  "name": "Flaming Spider",
+  "tier": "T2",
+  "family": "Wildlife.Spiders.Entangling_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "fire": 0.2
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_freezing_spider",
+  "key": "wl_freezing_spider",
+  "name": "Freezing Spider",
+  "tier": "T2",
+  "family": "Wildlife.Spiders.Entangling_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "cold": 0.2
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_frilled_lizard",
+  "key": "wl_frilled_lizard",
+  "name": "Frilled Lizard",
+  "tier": "T2",
+  "family": "Wildlife.Giant_Lizard.Frilled",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_giant_bat",
+  "key": "wl_giant_bat",
+  "name": "Giant Bat",
+  "tier": "T1",
+  "family": "Wildlife.Giant_Bat",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_giant_eagle",
+  "key": "wl_giant_eagle",
+  "name": "Ravenous Eagle",
+  "tier": "T2",
+  "family": "Wildlife.Eagle.Giant_Eagle",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_giant_turtle",
+  "key": "turtle_giant",
+  "name": "Giant Turtle",
+  "tier": "T3",
+  "family": "Wildlife.Turtles.Giant_Turtle",
+  "folder": "Wildlife",
+  "res": {
+   "cold": 0.35
+  },
+  "armor": {
+   "pierce": 4.0,
+   "strike": 4.0
+  }
+ },
+ {
+  "id": "da_cr_wl_gust_eagle",
+  "key": "wl_gust_eagle",
+  "name": "Gust Eagle",
+  "tier": "T2",
+  "family": "Wildlife.Eagle.Gust_Eagle",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_hydro_boar",
+  "key": "wl_hydro_boar",
+  "name": "Hydrokapron",
+  "tier": "T2",
+  "family": "Wildlife.Boars.Hydro_Boar",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_king_cobra",
+  "key": "wl_cobra_king",
+  "name": "King Cobra",
+  "tier": "T3",
+  "family": "Wildlife.Snakes.King_Cobra",
+  "folder": "Wildlife",
+  "res": {
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_leech",
+  "key": "wl_leech",
+  "name": "Leech",
+  "tier": "T1",
+  "family": "Wildlife.Leech",
+  "folder": "Wildlife",
+  "res": {
+   "poison": 0.15
+  },
+  "armor": {}
+ },
+ {
+  "id": "da_cr_wl_lightning_spider",
+  "key": "wl_lightning_spider",
+  "name": "Lightning Spider",
+  "tier": "T2",
+  "family": "Wildlife.Spiders.Entangling_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "lightning": 0.2
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_lion_female",
+  "key": "wl_lion_female",
+  "name": "Lioness",
+  "tier": "T2",
+  "family": "Wildlife.Lions.Female",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_lion_male",
+  "key": "wl_lion_male",
+  "name": "Lion",
+  "tier": "T2",
+  "family": "Wildlife.Lions.Male",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_minyade",
+  "key": "wl_minyade",
+  "name": "Minyade",
+  "tier": "T2",
+  "family": "Wildlife.Minyade",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_monstrous_boar",
+  "key": "wl_monstrous_boar",
+  "name": "Monstrous Boar",
+  "tier": "T3",
+  "family": "Wildlife.Boars.Monstrous_Boar",
+  "folder": "Wildlife",
+  "res": {
+   "strike": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_wl_mother_cobra",
+  "key": "wl_cobra_mother",
+  "name": "Mother Cobra",
+  "tier": "T3",
+  "family": "Wildlife.Snakes.Mother_Cobra",
+  "folder": "Wildlife",
+  "res": {
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_poisoning_spider",
+  "key": "wl_poisoning_spider",
+  "name": "Toxic Spider",
+  "tier": "T2",
+  "family": "Wildlife.Spiders.Entangling_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "poison": 0.2
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_poison_spider",
+  "key": "wl_poison_spider",
+  "name": "Venomous Spider",
+  "tier": "T1",
+  "family": "Wildlife.Spiders.Poison_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_wl_scorpion",
+  "key": "wl_scorpion_medium",
+  "name": "Scorpion",
+  "tier": "T2",
+  "family": "Wildlife.Scorpions.Scorpion",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 2.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_scorpionling",
+  "key": "wl_scorpion_small",
+  "name": "Scorpionling",
+  "tier": "T1",
+  "family": "Wildlife.Scorpions.Scorpionling",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_scorpion_mother",
+  "key": "wl_scorpion_mother",
+  "name": "Scorpion Broodmother",
+  "tier": "T3",
+  "family": "Wildlife.Scorpions.Scorpionmother",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 2.5,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_snapping_turtle",
+  "key": "wl_snapping_turtle",
+  "name": "Snapper",
+  "tier": "T1",
+  "family": "Wildlife.Turtles.Snapping_Turtle",
+  "folder": "Wildlife",
+  "res": {
+   "cold": 0.25,
+   "lightning": -0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_spiderling",
+  "key": "wl_spiderling",
+  "name": "Spiderling",
+  "tier": "T1",
+  "family": "Wildlife.Spiders.Spiderling",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.25
+  },
+  "armor": {}
+ },
+ {
+  "id": "da_cr_wl_spider_hunter",
+  "key": "wl_spider_hunter",
+  "name": "Wolf Spider",
+  "tier": "T3",
+  "family": "Wildlife.Spiders.Broodmother",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_spider_mother",
+  "key": "wl_spider_mother",
+  "name": "Broodmother",
+  "tier": "T3",
+  "family": "Wildlife.Spiders.Broodmother",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 2.0
+  }
+ },
+ {
+  "id": "da_cr_wl_spitting_turtle",
+  "key": "wl_spitting_turtle",
+  "name": "Spitter",
+  "tier": "T2",
+  "family": "Wildlife.Turtles.Spitting_Turtle",
+  "folder": "Wildlife",
+  "res": {
+   "cold": 0.25,
+   "lightning": -0.1,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 2.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_swarming_spider",
+  "key": "wl_swarming_spider",
+  "name": "Swarming Spider",
+  "tier": "T1",
+  "family": "Wildlife.Spiders.Swarming_Spider",
+  "folder": "Wildlife",
+  "res": {
+   "fire": -0.1,
+   "poison": 0.25
+  },
+  "armor": {
+   "pierce": 1.5
+  }
+ },
+ {
+  "id": "da_cr_wl_venomous_cobra",
+  "key": "wl_venomous_cobra",
+  "name": "Venomous Cobra",
+  "tier": "T2",
+  "family": "Wildlife.Snakes.Venomous_Cobra",
+  "folder": "Wildlife",
+  "res": {
+   "poison": 0.7
+  },
+  "armor": {
+   "pierce": 1.5,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_wolf",
+  "key": "wl_wolf",
+  "name": "Wolf",
+  "tier": "T1",
+  "family": "Wildlife.Wolf.Wolf_Regular",
+  "folder": "Wildlife",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_exploding_boar",
+  "key": "wl_exploding_boar",
+  "name": "Exploding Boar",
+  "tier": "T2",
+  "family": "Wildlife.Boars.Boar",
+  "folder": "Wildlife/Special",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_un_boar",
+  "key": "wl_boar",
+  "name": "Boar",
+  "tier": "T2",
+  "family": "Wildlife.Boars.Boar_Undead",
+  "folder": "Wildlife/Undead",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ },
+ {
+  "id": "da_cr_wl_un_monstrous_boar",
+  "key": "wl_monstrous_boar",
+  "name": "Monstrous Boar",
+  "tier": "T3",
+  "family": "Wildlife.Boars.Monstrous_Boar_Undead",
+  "folder": "Wildlife/Undead",
+  "res": {
+   "strike": 0.1
+  },
+  "armor": {
+   "pierce": 3.0,
+   "strike": 3.0
+  }
+ },
+ {
+  "id": "da_cr_wl_un_wolf",
+  "key": "wl_wolf",
+  "name": "Wolf",
+  "tier": "T1",
+  "family": "Wildlife.Wolf.Wolf_Undead",
+  "folder": "Wildlife/Undead",
+  "res": {},
+  "armor": {
+   "pierce": 1.0,
+   "strike": 1.0
+  }
+ }
+]
