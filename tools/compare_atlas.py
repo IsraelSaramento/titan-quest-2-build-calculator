@@ -25,31 +25,32 @@ def norm(x):
     return re.sub(r'[^a-z0-9]', '', (x or '').lower())
 
 
-ms = sys.argv[1:] or list(D)
-for mk in ms:
-    A = atlas_skills(mk)
-    print('=====', mk)
-    for sk in D[mk]:
-        if sk['wip']:
-            continue
-        a = A.get((sk['n'] or '').lower())
-        if not a:
-            print('  FALTA', sk['k'], sk['n'])
-            continue
-        body = a[2]
-        if sk['k'] == 'active':
-            am = {norm(n): (int(x), int(c)) for n, x, c in re.findall(r'\["([^"]+)", (\d+), (\d+), "', body)}
-            for md in sk['mods']:
-                key = norm(md['nameText'])
-                if key not in am:
-                    print('  mod falta  ', sk['n'], '·', md['nameText'], md['max'], md['cost'])
-                elif am[key] != (md['max'], md['cost']):
-                    print('  mod difere ', sk['n'], '·', md['nameText'], 'ferramenta', am[key], 'jogo', (md['max'], md['cost']))
-            extra = set(am) - {norm(md['nameText']) for md in sk['mods']}
-            for x in extra:
-                print('  mod sobra  ', sk['n'], '·', x)
-        else:
-            fts = [norm(n) for n, _ in re.findall(r'\["([^"]+)", "([^"]*)"\]', body)]
-            gf = [norm(f['n']) for f in sk['feats']]
-            if sorted(set(fts)) != sorted(set(gf)):
-                print('  feats difere', sk['n'], 'ferramenta', len(fts), 'jogo', len(gf), 'faltam', [f['n'] for f in sk['feats'] if norm(f['n']) not in fts])
+if __name__ == '__main__':
+    ms = sys.argv[1:] or list(D)
+    for mk in ms:
+        A = atlas_skills(mk)
+        print('=====', mk)
+        for sk in D[mk]:
+            if sk['wip']:
+                continue
+            a = A.get((sk['n'] or '').lower())
+            if not a:
+                print('  FALTA', sk['k'], sk['n'])
+                continue
+            body = a[2]
+            if sk['k'] == 'active':
+                am = {norm(n): (int(x), int(c)) for n, x, c in re.findall(r'\["([^"]+)", (\d+), (\d+), "', body)}
+                for md in sk['mods']:
+                    key = norm(md['nameText'])
+                    if key not in am:
+                        print('  mod falta  ', sk['n'], '·', md['nameText'], md['max'], md['cost'])
+                    elif am[key] != (md['max'], md['cost']):
+                        print('  mod difere ', sk['n'], '·', md['nameText'], 'ferramenta', am[key], 'jogo', (md['max'], md['cost']))
+                extra = set(am) - {norm(md['nameText']) for md in sk['mods']}
+                for x in extra:
+                    print('  mod sobra  ', sk['n'], '·', x)
+            else:
+                fts = [norm(n) for n, _ in re.findall(r'\["([^"]+)", "([^"]*)"\]', body)]
+                gf = [norm(f['n']) for f in sk['feats']]
+                if sorted(set(fts)) != sorted(set(gf)):
+                    print('  feats difere', sk['n'], 'ferramenta', len(fts), 'jogo', len(gf), 'faltam', [f['n'] for f in sk['feats'] if norm(f['n']) not in fts])

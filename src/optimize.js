@@ -195,7 +195,7 @@
     for (let step = 0; step < Math.min(10, pool); step++) {
       let best = null;
       receivers.forEach(rv => {
-        const v = stOf(cur)(rv.mk, rv.s); if (v.l >= MAXLV) return;
+        const v = stOf(cur)(rv.mk, rv.s); if (v.l >= (rv.s.k === 'passive' && rv.s.mx ? rv.s.mx : MAXLV)) return;
         const B2 = clone(cur); const d = take(B2); if (!d) return;
         const nv = { l: v.l + 1, f: v.f.slice(), m: { ...v.m } };
         // passiva nova ganha o melhor feat que couber

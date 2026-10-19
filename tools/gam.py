@@ -39,6 +39,15 @@ def ftext(d, o):
         n = struct.unpack_from('<i', d, o)[0]; o += 4
         k = d[o:o + n - 1].decode(); o += n
         return k, o
+    if ht == 0x00:  # Base: namespace, key, texto
+        vals = []
+        for _ in range(3):
+            n = struct.unpack_from('<i', d, o)[0]; o += 4
+            if n < 0:
+                vals.append(d[o:o - 2 * n - 2].decode('utf-16-le')); o += -2 * n
+            else:
+                vals.append(d[o:o + n - 1].decode('latin1') if n else ''); o += n
+        return vals[2], o
     if ht == 0xff:
         has = struct.unpack_from('<i', d, o)[0]; o += 4
         if has:
@@ -98,6 +107,8 @@ def modifier(cls):
             n, o = i32(d, o); r['p6'] = list(d[o:o + n]); o += n
         elif p in (7, 15):
             x, o = i32(d, o)
+        elif p == 1:
+            r['variantOf'], o = tags(d, o, N)
         elif p in (8, 9, 10, 11, 12):
             r[{8: 'tag', 9: 'abilityTag', 10: 'p10', 11: 'requires', 12: 'incompatible'}[p]], o = tags(d, o, N)
         elif p == 13:

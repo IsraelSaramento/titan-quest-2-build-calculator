@@ -250,7 +250,22 @@
     'forge|Minefield': { kind: 'spell', tags: ['spell', 'area'], types: { strike: 1 }, base: L => C.skillStrong(13.5, L), hitLabel: 'mina', generic: true, critBase: 5,
       note: 'Conta uma mina por alvo; minas seguidas no mesmo alvo dão 40% less.', mods: {} },
     'forge|Armor Eruption': { kind: 'spell', tags: ['area', 'projectile'], types: { strike: 7 / 12, pierce: 5 / 12 }, base: L => C.skillWeak(12, L), hitLabel: 'explosão', generic: true, critBase: 5,
-      note: 'O jogo aumenta o dano com a sua Armor; aqui é o valor base.', mods: {} }
+      note: 'O jogo aumenta o dano com a sua Armor; aqui é o valor base.', mods: {} },
+    // ---- Spirit (da_balancing_player_sp_*: dano = média de VitMinDmg e VitMaxDmg) ----
+    'spirit|Chthonic Pulse': { kind: 'spell', tags: ['spell', 'projectile'], types: { vitality: 1 }, base: L => C.skillWeak(10, L), hitLabel: 'projétil', generic: true, critBase: 5,
+      note: 'Projétil lento que atravessa todos os inimigos.', mods: {
+        'Cold Conversion': r => r ? { convert: 'cold', label: 'Cold Conversion: 100% convertido em Cold' } : null,
+        'Poison Conversion': r => r ? { convert: 'poison', label: 'Poison Conversion: 100% convertido em Poison' } : null } },
+    'spirit|Reap': { kind: 'weapon', tags: ['spell', 'area'], pct: () => 1, hitLabel: 'corte', generic: true, time: 0.53, critBase: 5,
+      note: '100% Weapon Damage em cone de 120° (4m); 10% Lifesteal. Velocidade de cast.', mods: {
+        'Weapon Attack': r => r ? { addTags: ['attack', 'weapon', 'melee'], label: 'Weapon Attack: vira ataque com arma' } : null } },
+    'spirit|Deathward Beam': { kind: 'spell', tags: ['spell', 'channel'], types: { vitality: 1 }, base: L => C.skillMedium(1.4, L), hitLabel: 'tick do raio (a cada 0.1s)', tick: 0.1, generic: true,
+      note: 'Canal: 10 ticks por segundo, não escala com velocidade de cast; atravessa 2 alvos com 70% de dano.', mods: {
+        'Cold Conversion': r => r ? { convert: 'cold', label: 'Cold Conversion: 100% convertido em Cold' } : null,
+        'Poison Conversion': r => r ? { convert: 'poison', label: 'Poison Conversion: 100% convertido em Poison' } : null } },
+    'spirit|Soul Vortex': { kind: 'spell', tags: ['spell', 'area'], types: { vitality: 1 }, base: L => C.skillWeak(7.5, L), hitLabel: 'pulso (a cada 0.8s por 4s)', hits: 5, generic: true, critBase: 5, mods: {} },
+    'spirit|Death Nova': { kind: 'spell', tags: ['spell', 'area', 'projectile'], types: { vitality: 1 }, base: L => C.skillStrong(12.5, L), hitLabel: 'projétil', generic: true, critBase: 5,
+      note: '12 projéteis em círculo; conta um por alvo.', mods: {} }
   };
 
   /* ---------- Efeitos especiais (fórmulas exatas do jogo) ---------- */

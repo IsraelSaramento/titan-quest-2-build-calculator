@@ -183,7 +183,7 @@ def build(with_saves, name):
     h = rep(h, "$('vBuild').onclick=()=>setView('build');", "wireImport('bImp','bImpFile','bImpMsg',renderAll);$('vBuild').onclick=()=>setView('build');")
     # scripts novos antes do script principal
     blocks = []
-    extra = ['affix_texts.js', 'affix_pool.js', 'socketables.js', 'monsters.js', 'import.js', 'calc.js', 'optimize.js', 'calc_ui.js']
+    extra = ['masteries_fix.js', 'affix_texts.js', 'affix_pool.js', 'socketables.js', 'monsters.js', 'import.js', 'calc.js', 'optimize.js', 'calc_ui.js']
     saves = sorted(glob.glob(os.path.join(SRC, 'save_*.js'))) if with_saves else []
     for f in saves + [os.path.join(SRC, x) for x in extra]:
         code = open(f, encoding='utf-8').read().replace('</script', '<\\/script')
@@ -197,7 +197,14 @@ def build(with_saves, name):
     h = rep(h, "$('vBuild').onclick=()=>setView('build');", "$('vBuild').onclick=()=>setView('build');$('vCalc').onclick=()=>setView('calc');")
     # avisos de impacto no planejador e na árvore
     h = rep(h, "let h='';\n  B.slots.forEach(mk=>{", "calcRefresh();\n  let h=calcBarHTML();\n  B.slots.forEach(mk=>{")
-    h = rep(h, '${badge(s)}${stepper(id,v.l,MAXLV)}</div>`;', '${badge(s)}${stepper(id,v.l,MAXLV)}</div>${v.l?impactHTML(mk,s):\'\'}`;')
+    h = rep(h, '${badge(s)}${stepper(id,v.l,MAXLV)}</div>`;', '${badge(s)}${stepper(id,v.l,maxLv(s))}</div>${v.l?impactHTML(mk,s):\'\'}`;')
+    # nível máximo de cada passiva (arquivo do jogo); ativas continuam até 20
+    h = rep(h, "wireStep(row.querySelector('.bhead .step'),MAXLV,", "wireStep(row.querySelector('.bhead .step'),maxLv(s),")
+    h = rep(h, 'const MAXLV=20;', "const MAXLV=20;\nconst maxLv=s=>s.k==='passive'&&s.mx?s.mx:MAXLV;")
+    h = rep(h, '<input id="pv" type="number" min="1" max="${MAXLV}" value="10">', '<input id="pv" type="number" min="1" max="${maxLv(s)}" value="${maxLv(s)}">')
+    h = rep(h, 'const l=Math.max(1,Math.min(MAXLV,+pv.value||1));', 'const l=Math.max(1,Math.min(maxLv(s),+pv.value||1));')
+    h = rep(h, "h+=`<h3>Feats${s.u?` · liberam nos níveis ${s.u.replace('/',' e ')}`:' · níveis a conferir'}</h3>",
+            "h+=`<h3>Feats${s.u?` · liberam nos níveis ${s.u.replace('/',' e ')} (nível máximo ${maxLv(s)})`:' · níveis a conferir'}</h3>")
     h = rep(h, "$('bEdit').innerHTML=h;", "$('bEdit').innerHTML=h;wireCalcBar();")
     h = rep(h, 'if(s.note)h+=`<div class="note">${esc(s.note)}</div>`;\n  $(\'detail\').innerHTML=h;',
             'if(s.note)h+=`<div class="note">${esc(s.note)}</div>`;\n  h+=treeImpactHTML(cur,s);\n  $(\'detail\').innerHTML=h;')
