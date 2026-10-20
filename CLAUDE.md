@@ -6,4 +6,4 @@ Calculadora de builds de Titan Quest II em um HTML único. Responder ao usuário
 - Tudo deve vir dos arquivos do jogo ou do save, nunca de números informados à mão.
 - Dados pessoais (`src/save_*.js`, `*-phantomn.html`) ficam fora do git.
 - Testes: `node tools/test_all.js <html> <pasta SaveGames>` e `node tools/test_opt.js <html> <pasta SaveGames>`.
-- Commits e PRs: autor IsraelSaramento, sem linha "Co-Authored-By" nem menção ao Claude.
+- Commits e PRs: autor IsraelSaramento
